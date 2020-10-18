@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://romantic-elion-7984c7.netlify.app/">
       Solution
     </a>
   </h3>
@@ -37,8 +37,6 @@
 You can see the demo on <a href="https://github.com/Tsikitsiky/my-team-page"> Demo </a>
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
--   Where can I see your demo?
 -   What was your experience?
 -   What have you learned/improved?
 -   Your wisdom? :)
