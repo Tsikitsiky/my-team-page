@@ -1,0 +1,23 @@
+{
+  "name": "my-team-page",
+  "version": "1.0.0",
+  "description": "![screenshot](screenshot.png)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsikitsiky/my-team-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsikitsiky/my-team-page/issues"
+  },
+  "homepage": "https://github.com/Tsikitsiky/my-team-page#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

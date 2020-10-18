@@ -4,24 +4,49 @@ body {
     margin: 0;
 }
 
-h1, h2 {
+h1, .h2 {
     margin: 0;
 }
 
+h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    padding-bottom: 38px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 body > * {
-    padding: 16px;
+    padding: 19px;
 }
 
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    /* grid-template-columns: 1fr 1fr; */
 }
 
 figure {
     margin: 0;
+}
+
+li {
+    max-width: 135px;
 }
 
 article {
@@ -37,19 +62,73 @@ article h3 {
     margin: 0;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 15.9px;
     position: absolute;
     top: 0;
-    left: 80%;
+    left: 100%;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
 }
 
 img {
-    max-width: 122px;
+    max-width: 98%;
 }
 
 figcaption {
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+
+@media(min-width: 620px) {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    li:nth-child(2n) {
+        padding-top: 0;
+      }
+
+    li:nth-child(2),
+    li:nth-child(5) {
+        padding-top: 60px;
+    }
+
+    li {
+        max-width: 280px;
+    }
+    
+    body > * {
+        max-width: 1040px;
+        margin: auto;
+    }
+
+    body > header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 100px;
+    }
+
+    h1 {
+        font-size: 36px; 
+        line-height: 47.7px;
+        padding-bottom: 0;
+    }
+
+    header > div {
+        max-width: 439px;
+    }
 }
